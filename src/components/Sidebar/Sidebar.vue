@@ -106,6 +106,7 @@ export default {
   data() {
     return {
       items: [
+        { title: "Cinema", icon: "mdi-home", link: "/dashboard" },
         { title: "Dashboard", icon: "mdi-home", link: "/dashboard" },
         { title: "Typography", icon: "mdi-format-size", link: "/typography" },
         { title: "Tables", icon: "mdi-grid-large", link: "/tables" },

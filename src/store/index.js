@@ -15,6 +15,7 @@ export default new Vuex.Store({
   },
   actions: {
     TOGGLE_DRAWER({ commit }) {
+      console.log(commit)
       commit("toggleDrawer");
     },
   },
